@@ -92,3 +92,46 @@ border-bottom: 1px solid #3a3a3a;
         transform: scale(1.1);
     }
 }
+
+/* Union Services section*/
+
+#services-section {
+    height: 600px;
+    right: 0;
+    text-align: center;
+}
+/*
+.union-services {
+    padding-top: 20px;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+}
+*/
+hr {
+    border-bottom: 2px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#left {
+width: 30%;
+float: left;
+padding-top: 20px;    
+background-color: green;
+}
+
+#middle {
+    width: 30%;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 20px;
+    background-color: silver;
+    }
+
+#right {
+    float: right;
+    width: 30%;
+    padding-top: 20px;
+    background-color: blue;
+        }
