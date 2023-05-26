@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +14,10 @@ body {
 
 /* headings and logo*/
 
-h1, h2 {
-    font-family: Oswald, sans-serif; 
-    text-transform:uppercase;
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
@@ -31,7 +33,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -45,7 +48,7 @@ h1, h2 {
 nav {
     float: right;
     margin-right: 30px;
-    
+
 }
 
 #menu a {
@@ -58,7 +61,7 @@ nav {
 }
 
 .active {
-border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Hero image*/
@@ -68,6 +71,7 @@ border-bottom: 1px solid #3a3a3a;
     width: 100%;
     overflow: hidden;
 }
+
 #hero-image {
     width: 100%;
     height: 600px;
@@ -76,7 +80,7 @@ border-bottom: 1px solid #3a3a3a;
     /* Animates zoom effect on loading page*/
     animation-name: hero-zoom;
     animation-duration: 10s;
-    animation-fill-mode:both;
+    animation-fill-mode: both;
 
 
 }
@@ -115,37 +119,75 @@ border-bottom: 1px solid #3a3a3a;
 */
 
 #left {
-width: 30%;
-padding-top: 10px;
-background: url('../images/financialeducation.jpg') no-repeat center center;
-color: whitesmoke;
-border-right: white;
-background-color: rgba(0, 0, 0, .9);
+    width: 30%;
+    padding-top: 10px;
+    /*background: url('../images/financialeducation.jpg') no-repeat center center;*/
+    color: whitesmoke;
+    border-right: white;
+    background-color: rgba(56, 60, 129, 0.9);
 }
 
 #middle {
     width: 30%;
     padding-top: 10px;
-    background: url('../images/capitalmanagement.jpg') no-repeat center center;
+   /* background: url('../images/capitalmanagement.jpg') no-repeat center center;*/
     color: white;
-    background-color: rgba(0, 0, 0, .9);
-    }
+    background-color: rgba(26, 37, 33, 0.9);
+}
 
 #right {
     width: 30%;
     padding-top: 10px;
-    background: url('../images/investmentadvice.jpg') no-repeat center center;
+   /* background: url('../images/investmentadvice.jpg') no-repeat center center;*/
     color: white;
-    background-color: rgba(0, 0, 0, .9);
-    
-        }
-#left h2, #middle h2, #right h2 {
+    background-color: rgba(25, 24, 31, 0.9);
+
+}
+
+#left h2,
+#middle h2,
+#right h2 {
     color: white;
     letter-spacing: 4px;
     padding-bottom: 10px;
 }
 
-#left p, #middle p, #right p {
+#left p,
+#middle p,
+#right p {
     text-align: center;
-    padding: 5px;
+    padding: 5px 5px 0;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+}
+#left a,
+#middle a,
+#right a {
+    text-decoration: none;
+    color: white;
+}
+
+#left button {
+    background-color: rgba(56, 60, 129, 0.9);
+}
+#left button:hover {
+background-color: black;
+}
+
+#middle button {
+    background-color: rgba(26, 37, 33, 0.9);
+}
+#middle button:hover {
+background-color: black;
+}
+
+#right button {
+    background-color: rgba(25, 24, 31, 0.9);
+}
+#right button:hover {
+background-color: black;
 }
