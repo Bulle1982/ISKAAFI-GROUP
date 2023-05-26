@@ -124,7 +124,7 @@ nav {
     /*background: url('../images/financialeducation.jpg') no-repeat center center;*/
     color: whitesmoke;
     border-right: white;
-    background-color: rgba(56, 60, 129, 0.9);
+    background-color: rgba(26, 37, 33, 0.9);
 }
 
 #middle {
@@ -132,7 +132,7 @@ nav {
     padding-top: 10px;
    /* background: url('../images/capitalmanagement.jpg') no-repeat center center;*/
     color: white;
-    background-color: rgba(26, 37, 33, 0.9);
+    background-color: rgba(56, 60, 129, 0.9);
 }
 
 #right {
@@ -172,14 +172,14 @@ button {
 }
 
 #left button {
-    background-color: rgba(56, 60, 129, 0.9);
+    background-color: rgba(26, 37, 33, 0.9);
 }
 #left button:hover {
 background-color: black;
 }
 
 #middle button {
-    background-color: rgba(26, 37, 33, 0.9);
+    background-color: rgba(56, 60, 129, 0.9);
 }
 #middle button:hover {
 background-color: black;
