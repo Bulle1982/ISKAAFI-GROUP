@@ -96,42 +96,56 @@ border-bottom: 1px solid #3a3a3a;
 /* Union Services section*/
 
 #services-section {
-    height: 600px;
-    right: 0;
-    text-align: center;
-}
-/*
-.union-services {
     padding-top: 20px;
-    width: 30%;
-    height: 300px;
-    display: inline-block;
+    height: 600px;
 }
-*/
-hr {
+
+#services-section div {
+    display: table-cell;
+    text-align: center;
+    line-height: 20px;
+    height: 300px;
+}
+
+/*hr {
     border-bottom: 2px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
+*/
 
 #left {
 width: 30%;
-float: left;
-padding-top: 20px;    
-background-color: green;
+padding-top: 10px;
+background: url('../images/financialeducation.jpg') no-repeat center center;
+color: whitesmoke;
+border-right: white;
+background-color: rgba(0, 0, 0, .9);
 }
 
 #middle {
     width: 30%;
-    margin: 0 auto;
-    width: 30%;
-    padding-top: 20px;
-    background-color: silver;
+    padding-top: 10px;
+    background: url('../images/capitalmanagement.jpg') no-repeat center center;
+    color: white;
+    background-color: rgba(0, 0, 0, .9);
     }
 
 #right {
-    float: right;
     width: 30%;
-    padding-top: 20px;
-    background-color: blue;
+    padding-top: 10px;
+    background: url('../images/investmentadvice.jpg') no-repeat center center;
+    color: white;
+    background-color: rgba(0, 0, 0, .9);
+    
         }
+#left h2, #middle h2, #right h2 {
+    color: white;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+
+#left p, #middle p, #right p {
+    text-align: center;
+    padding: 5px;
+}
