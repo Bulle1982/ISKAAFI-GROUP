@@ -226,7 +226,6 @@ footer {
     margin-top: 10px;
     height: 100px;
     text-align: center;
-    background-color: lightcyan;
 }
 footer li {
     display: inline-block;
@@ -245,3 +244,57 @@ footer i {
     padding: 5%;
     color: #3a3a3a;
 }
+
+
+.education-container {
+    height: 600px;
+    width: 100%;
+    background: url('../images/stockholm.jpg') no-repeat center;
+    clear: left;
+    margin-bottom: 10px;
+   /* margin: 0 auto;*/
+   
+}
+
+.education-section {
+    height: 600px;
+    width: 30%;
+    display: table;
+    float: left;
+}
+
+.one {
+  
+   margin-left: 30px;
+   
+  
+}
+
+.two {
+    
+    margin-left: 30px;
+    border-left: 1px solid white;
+}
+
+.three {
+    
+    margin-left: 30px;
+    border-left: 1px solid white;
+}
+
+.education-section h2 {
+    padding-top: 300px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+.education-section  p {
+    color: white;
+    text-align: center;
+}
+
+.fix {
+    clear: both;
+}
+
