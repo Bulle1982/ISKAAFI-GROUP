@@ -461,6 +461,17 @@ color: #f16c6b;
         display: none;
     }
 
+    .times > div {
+        width: 100%;
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        line-height: 25px;
+
+
+    }
+
 }
 
 /* For medium screen sizes from 944px wide and down*/
