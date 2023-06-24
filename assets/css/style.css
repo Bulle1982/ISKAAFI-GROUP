@@ -246,6 +246,7 @@ hr {
 /* Sign Up Form */
 
 .form-section {
+    margin-top: 5px;
     clear: left;
     background: url('../images/investment-form.jpg');
     background-size: cover;
